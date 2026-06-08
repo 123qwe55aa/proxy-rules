@@ -15,6 +15,10 @@ icmp-auto-reply = true
 private-ip-answer = true
 udp-policy-not-supported-behaviour = REJECT
 
+[Proxy]
+🇸🇬 SG-AnyTLS = anytls, 45.32.123.30, 443, password=5]EpZJ#A4*joP)o$, udp-relay=true, reality=true, reality-pubkey=ScJwrWbfhdxBT3AXLhMq6GwrlYxmUh4HMNa-rPsjVHQ, reality-short-id=0123456789abcdef, sni=www.microsoft.com
+🇸🇬 SG-AnyTLS-TLS = anytls, 45.32.123.30, 8443, password=5]EpZJ#A4*joP)o$, udp-relay=true, tls=true, tls-cert-sha256=3C:E9:95:BC:8A:AC:9E:7A:0E:30:DE:06:38:76:B8:29:FD:59:96:CC:F5:11:12:22:17:56:F2:56:21:70:E0:E2
+
 [Rule]
 RULE-SET,https://proxy-rules.tobyleons.com/private.list,DIRECT
 RULE-SET,https://proxy-rules.tobyleons.com/reject.list,REJECT
