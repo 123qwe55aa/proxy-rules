@@ -317,6 +317,9 @@ DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,docker.com
 `,
 
+  "/sub": `vless://49997afc-c405-41fb-aaa5-55db249ca865@45.32.123.30:443?encryption=none&security=reality&sni=www.microsoft.com&fp=chrome&pbk=ScJwrWbfhdxBT3AXLhMq6GwrlYxmUh4HMNa-rPsjVHQ&sid=0123456789abcdef&type=tcp&flow=xtls-rprx-vision#SG-VLESS-Reality
+vless://49997afc-c405-41fb-aaa5-55db249ca865@45.32.123.30:8443?encryption=none&security=tls&sni=proxy.tobyleons.com&fp=chrome&type=tcp#SG-VLESS-TLS`,
+
   "/reject.list": `# reject.list — 廣告 / 追蹤 / REJECT
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.com
