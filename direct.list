@@ -236,3 +236,7 @@ DOMAIN-SUFFIX,accuweather.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,dnsleak.com
+
+# === Vultr VPS (SSH 直連) ===
+IP-CIDR,45.32.123.30/32,no-resolve
+IP-CIDR,45.77.250.74/32,no-resolve
