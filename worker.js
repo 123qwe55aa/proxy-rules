@@ -1,6 +1,6 @@
 // Cloudflare Worker — proxy-rules
 // 部署：wrangler deploy
-// 參考：https://proxy-rules.tobyrunninglgc.workers.dev/default.conf
+// 參考：https://proxy-rules.tobyleons.com/default.conf
 
 const files = {
   "/default.conf": `[General]
@@ -16,10 +16,10 @@ private-ip-answer = true
 udp-policy-not-supported-behaviour = REJECT
 
 [Rule]
-RULE-SET,https://proxy-rules.tobyrunninglgc.workers.dev/private.list,DIRECT
-RULE-SET,https://proxy-rules.tobyrunninglgc.workers.dev/reject.list,REJECT
-RULE-SET,https://proxy-rules.tobyrunninglgc.workers.dev/direct.list,DIRECT
-RULE-SET,https://proxy-rules.tobyrunninglgc.workers.dev/proxy.list,PROXY
+RULE-SET,https://proxy-rules.tobyleons.com/private.list,DIRECT
+RULE-SET,https://proxy-rules.tobyleons.com/reject.list,REJECT
+RULE-SET,https://proxy-rules.tobyleons.com/direct.list,DIRECT
+RULE-SET,https://proxy-rules.tobyleons.com/proxy.list,PROXY
 GEOIP,CN,DIRECT
 FINAL,PROXY
 `,
@@ -44,7 +44,7 @@ DOMAIN,Lisa.local
 `,
 
   "/direct.list": `# direct.list — 明確直連（國內 / Apple / 常用服務）
-DOMAIN,proxy-rules.tobyrunninglgc.workers.dev
+DOMAIN,proxy-rules.tobyleons.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cdn-apple.com
