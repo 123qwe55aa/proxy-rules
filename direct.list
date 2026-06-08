@@ -2,7 +2,8 @@
 # Loaded by: default.conf → RULE-SET,direct.list,DIRECT
 
 # === 自身規則域名（雞生蛋問題）===
-DOMAIN,proxy-rules.tobyrunninglgc.workers.dev
+IP-CIDR,139.180.137.48/32,no-resolve
+DOMAIN,proxy-rules.tobyleons.com
 
 # === Apple 服務 ===
 DOMAIN-SUFFIX,aaplimg.com

@@ -44,6 +44,10 @@ DOMAIN,Lisa.local
 `,
 
   "/direct.list": `# direct.list — 明確直連（國內 / Apple / 常用服務）
+# Loaded by: default.conf → RULE-SET,direct.list,DIRECT
+
+# === 自身規則域名（雞生蛋問題）===
+IP-CIDR,139.180.137.48/32,no-resolve
 DOMAIN,proxy-rules.tobyleons.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
