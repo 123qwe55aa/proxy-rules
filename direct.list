@@ -1,0 +1,237 @@
+# direct.list — 明確直連（國內 / Apple / 常用服務）
+# Loaded by: default.conf → RULE-SET,direct.list,DIRECT
+
+# === 自身規則域名（雞生蛋問題）===
+DOMAIN,proxy-rules.tobyrunninglgc.workers.dev
+
+# === Apple 服務 ===
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,www-cdn.icloud.com.akadns.net
+
+# === 中國主流平台（百度系）===
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubcr.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,yunjiasu-cdn.net
+
+# === 阿里巴巴系 ===
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alikunlun.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,etao.com
+
+# === 騰訊系 ===
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qhimg.com
+DOMAIN-SUFFIX,qhres.com
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,dns.pub
+DOMAIN-SUFFIX,doh.pub
+
+# === 百度 / 愛奇藝 ===
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+
+# === 嗶哩嗶哩 ===
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,acgvideo.com
+
+# === 抖音 / 頭條 ===
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,pstatp.com
+
+# === 美團點評 ===
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,dianping.com
+
+# === 知乎 ===
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+
+# === 微博 ===
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,weico.cc
+
+# === 京東 ===
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,360buyimg.com
+
+# === 小紅書 ===
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+
+# === 網易 ===
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,netease.com
+
+# === 小米 ===
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,mi-img.com
+
+# === 其他國內常用 ===
+DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,sohucs.com
+DOMAIN-SUFFIX,sohu-inc.com
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,booking.com
+DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,sspai.com
+DOMAIN-SUFFIX,ithome.com
+DOMAIN-SUFFIX,luojilab.com
+DOMAIN-SUFFIX,kaiyanapp.com
+DOMAIN-SUFFIX,b612.net
+DOMAIN-SUFFIX,camera360.com
+DOMAIN-SUFFIX,feng.com
+DOMAIN-SUFFIX,gandi.net
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,keepcdn.com
+DOMAIN-SUFFIX,maoyan.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,mubu.com
+DOMAIN-SUFFIX,raychase.net
+DOMAIN-SUFFIX,scomper.me
+DOMAIN-SUFFIX,snapdrop.net
+DOMAIN-SUFFIX,xiachufang.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,zimuzu.io
+DOMAIN-SUFFIX,zimuzu.tv
+
+# === 銀行 / 支付 ===
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+
+# === 學術 / 教育 ===
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aip.org
+DOMAIN-SUFFIX,ams.org
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,ascelibrary.org
+DOMAIN-SUFFIX,asm.org
+DOMAIN-SUFFIX,asme.org
+DOMAIN-SUFFIX,astm.org
+DOMAIN-SUFFIX,bmj.com
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,cas.org
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,ebscohost.com
+DOMAIN-SUFFIX,emerald.com
+DOMAIN-SUFFIX,engineeringvillage.com
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,iop.org
+DOMAIN-SUFFIX,jamanetwork.com
+DOMAIN-SUFFIX,jhu.edu
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,karger.com
+DOMAIN-SUFFIX,libguides.com
+DOMAIN-SUFFIX,mpg.de
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,oecd-ilibrary.org
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,osapublishing.org
+DOMAIN-SUFFIX,oup.com
+DOMAIN-SUFFIX,ovid.com
+DOMAIN-SUFFIX,oxfordartonline.com
+DOMAIN-SUFFIX,oxfordbibliographies.com
+DOMAIN-SUFFIX,oxfordmusiconline.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,proquest.com
+DOMAIN-SUFFIX,rsc.org
+DOMAIN-SUFFIX,sagepub.com
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,siam.org
+DOMAIN-SUFFIX,spiedigitallibrary.org
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
+DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-SUFFIX,udacity.com
+DOMAIN-SUFFIX,un.org
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,worldbank.org
+DOMAIN-SUFFIX,worldscientific.com
+
+# === 常用軟件更新 ===
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN,download.jetbrains.com
+DOMAIN,officecdn-microsoft-com.akamaihd.net
+DOMAIN,speedtest.macpaw.com
+
+# === 遊戲 ===
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN,blzddist1-a.akamaihd.net
+DOMAIN,file-igamecj.akamaized.net
+
+# === 實用工具 ===
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,ipv6-test.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,whatismyip.com
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN-SUFFIX,accuweather.com
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dnsleak.com

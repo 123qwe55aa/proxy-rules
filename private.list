@@ -1,0 +1,32 @@
+# private.list — 內網 / Tailscale / localhost，永遠 DIRECT
+# Loaded by: default.conf → RULE-SET,private.list,DIRECT
+
+# Loopback
+IP-CIDR,127.0.0.0/8,no-resolve
+
+# CGNAT (Tailscale)
+IP-CIDR,100.64.0.0/10,no-resolve
+
+# LAN
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,10.48.0.0/12,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,192.168.128.0/17,no-resolve
+
+# Mac CGNAT
+IP-CIDR,100.90.177.36/32,no-resolve
+
+# VPS
+IP-CIDR,139.180.137.48/32,no-resolve
+
+# Tailscale
+DOMAIN-SUFFIX,ts.net
+DOMAIN-SUFFIX,tailscale
+
+# Local dev / hostnames
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,lisa-local
+DOMAIN,localhost
+DOMAIN,toby.local
+DOMAIN,Lisa.local

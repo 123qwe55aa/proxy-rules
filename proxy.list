@@ -1,0 +1,247 @@
+# proxy.list — 明確代理（海外/封鎖服務）
+# Loaded by: default.conf → RULE-SET,proxy.list,PROXY
+
+# === Google 系 ===
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,waymo.com
+DOMAIN-SUFFIX,x.company
+
+# === GitHub ===
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+
+# === OpenAI / ChatGPT ===
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-KEYWORD,openaicom-api
+
+# === Anthropic / Claude ===
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,crowdai.com
+
+# === Meta / Facebook / Instagram ===
+DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,messenger.com
+
+# === X / Twitter ===
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+
+# === Telegram ===
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,2001:B28:F23D::/48,no-resolve
+IP-CIDR,2001:B28:F23F::/48,no-resolve
+IP-CIDR,2001:67C:4E8::/48,no-resolve
+
+# === Discord ===
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordcdn.com
+
+# === Amazon / AWS ===
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN,images-cn.ssl-images-amazon.com
+
+# === Cloudflare ===
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,r2.dev
+
+# === Docker / Dev Tools ===
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,cocoapods.org
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmcharts.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,serverfault.com
+DOMAIN-SUFFIX,superuser.com
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,dev.to
+DOMAIN-SUFFIX,hashnode.com
+
+# === AI / ML ===
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,gradio.app
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+
+# === Social / Media ===
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,tiktok.com
+
+# === Wikipedia / Reference ===
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikipedia.com
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,mediawiki.org
+
+# === Music / Streaming ===
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,shazam.com
+
+# === Video ===
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneystreaming.com
+
+# === Productivity ===
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,miro.com
+DOMAIN-SUFFIX,linear.app
+DOMAIN-SUFFIX,asana.com
+DOMAIN-SUFFIX,trello.com
+
+# === Misc ===
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,mobile01.com
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,arxiv.org
+DOMAIN-SUFFIX,sci-hub.se
+
+# === VPN / 泄漏檢測 ===
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,expressvpn.com
+DOMAIN-SUFFIX,nordvpn.com
+DOMAIN-SUFFIX,surfshark.com
+
+# === 遊戲 ===
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,ea.com
+
+# === LINE ===
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line.naver.jp
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line-apps.com
+USER-AGENT,Line*,PROXY
+
+# === Clubhouse ===
+DOMAIN-SUFFIX,joinclubhouse.com
+DOMAIN-SUFFIX,clubhouseapi.com
+DOMAIN-SUFFIX,clubhouse.pubnub.com
+
+# === Apple Intelligence / Siri 代理加速 ===
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+
+# === Microsoft Copilot ===
+DOMAIN,copilot.microsoft.com
+DOMAIN,copilot.bing.com
+
+# === News / Reading ===
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,reuters.com
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,theguardian.com
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,engadget.com
+DOMAIN-SUFFIX,techcrunch.com
+DOMAIN-SUFFIX,theverge.com
+DOMAIN-SUFFIX,arstechnica.com
+
+# === 速度測試 ===
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ookla.com

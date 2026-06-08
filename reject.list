@@ -1,0 +1,38 @@
+# reject.list — 廣告 / 追蹤 / 垃圾域名
+# Loaded by: default.conf → RULE-SET,reject.list,REJECT
+# 循序漸進：先加明顯嘅，觀察後再加
+
+# === Google 廣告 ===
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adservice.google.com.hk
+DOMAIN-SUFFIX,adservice.google.com.tw
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googlesynergy.com
+
+# === 通用追蹤 ===
+DOMAIN-KEYWORD,tracker
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,adsystem
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,advertising
+DOMAIN-KEYWORD,advertisement
+DOMAIN-KEYWORD,adzerk
+DOMAIN-KEYWORD,applovin
+
+# === 常見廣告網絡 ===
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletag.com
+DOMAIN-SUFFIX,facebook.com/tr
+DOMAIN-SUFFIX,connect.facebook.net
+DOMAIN-SUFFIX,analytics.twitter.com
+DOMAIN-SUFFIX,ads.linkedin.com
+DOMAIN-SUFFIX,bat.bing.com
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,advertising.yahoo.com
