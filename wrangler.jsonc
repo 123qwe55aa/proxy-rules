@@ -1,6 +1,0 @@
-{
-  "name": "proxy-rules",
-  "main": "worker.js",
-  "compatibility_date": "2026-06-08",
-  "workers_dev": true
-}
