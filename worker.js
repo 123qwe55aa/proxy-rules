@@ -51,8 +51,8 @@ DOMAIN,Lisa.local
 # Loaded by: default.conf → RULE-SET,direct.list,DIRECT
 
 # === Vultr VPS (SSH 直連) ===
-IP-CIDR,45.32.123.30/32,no-resolve
-IP-CIDR,45.77.250.74/32,no-resolve
+IP-CIDR,140.82.17.94/32,no-resolve
+IP-CIDR,139.84.171.183/32,no-resolve
 
 # === 自身規則域名（雞生蛋問題）===
 IP-CIDR,139.180.137.48/32,no-resolve
