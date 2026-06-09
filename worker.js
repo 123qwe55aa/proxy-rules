@@ -6,7 +6,7 @@ const files = {
   "/default.conf": `[General]
 bypass-system = true
 skip-proxy = 127.0.0.1, localhost, *.local, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, *.ts.net, 100.90.177.36/32
-tun-excluded-routes = 10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32, 149.28.69.212/32, 139.84.177.221/32
+tun-excluded-routes = 10.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32, 149.28.69.212/32, 45.32.93.242/32
 dns-server = system
 fallback-dns-server = system
 ipv6 = true
@@ -16,8 +16,8 @@ private-ip-answer = true
 udp-policy-not-supported-behaviour = REJECT
 
 [Proxy]
-🇸🇬 SG-VLESS = vless, 45.32.123.30, 443, uuid=49997afc-c405-41fb-aaa5-55db249ca865, udp-relay=true, reality=true, reality-pubkey=ScJwrWbfhdxBT3AXLhMq6GwrlYxmUh4HMNa-rPsjVHQ, reality-short-id=0123456789abcdef, sni=www.microsoft.com, flow=xtls-rprx-vision
-🇸🇬 SG-VLESS-TLS = vless, 45.32.123.30, 8443, uuid=49997afc-c405-41fb-aaa5-55db249ca865, udp-relay=true, tls=true, tls-cert-sha256=3C:E9:95:BC:8A:AC:9E:7A:0E:30:DE:06:38:76:B8:29:FD:59:96:CC:F5:11:12:22:17:56:F2:56:21:70:E0:E2
+🇺🇸 LAX-VLESS = vless, 149.28.69.212, 443, uuid=49997afc-c405-41fb-aaa5-55db249ca865, udp-relay=true, reality=true, reality-pubkey=ScJwrWbfhdxBT3AXLhMq6GwrlYxmUh4HMNa-rPsjVHQ, reality-short-id=0123456789abcdef, sni=www.microsoft.com, flow=xtls-rprx-vision
+🇺🇸 LAX-VLESS-TLS = vless, 149.28.69.212, 8443, uuid=49997afc-c405-41fb-aaa5-55db249ca865, udp-relay=true, tls=true, tls-cert-sha256=3C:E9:95:BC:8A:AC:9E:7A:0E:30:DE:06:38:76:B8:29:FD:59:96:CC:F5:11:12:22:17:56:F2:56:21:70:E0:E2
 
 [Rule]
 RULE-SET,https://proxy-rules.tobyleons.com/private.list,DIRECT
@@ -52,7 +52,9 @@ DOMAIN,Lisa.local
 
 # === Vultr VPS (SSH 直連) ===
 IP-CIDR,149.28.69.212/32,no-resolve
-IP-CIDR,139.84.177.221/32,no-resolve
+IP-CIDR,45.32.93.242/32,no-resolve
+IP-CIDR,45.77.250.74/32,no-resolve
+IP-CIDR,45.77.123.243/32,no-resolve
 
 # === 自身規則域名（雞生蛋問題）===
 IP-CIDR,139.180.137.48/32,no-resolve
